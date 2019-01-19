@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+
+import subprocess
+import sys
+sys.path.insert(0, "/home/ubuntu/src/dataAcq/aux")
+from tsvToMat import tsvToSparseMat
+
+def main():
+	chroms = list(map(str, range(1,23))) + ["X", "Y"]
+	for chrom in chroms[:1]:
+		print("Chromosome: " + chrom)
+		try:
+			# Download VCF file.
+			fileName = "s3://1000genomes/release/20130502/ALL.chr" + chrom + \
+				".phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz"
+			localName = "chrom" + chrom
+			vCDir = "/home/ubuntu/data/variantCalls/"
+			procDir = "/home/ubuntu/data/processedVC/"
+			matDir = "/home/ubuntu/data/sparseMats/"
+			cmd = ["s3cmd", "get", fileName, vCDir + localName + ".vcf.gz"]
+			subprocess.run(cmd)
+
+			# Parse VCF file and write to TSV file.
+			parseFile = "/home/ubuntu/src/dataAcq/aux/parse.sh"
+			subprocess.run([parseFile, chrom])
+
+			# Read TSV into sparse scipy matrix and save.
+			tsvToSparseMat(procDir + localName + ".tsv", matDir + localName + ".npz")
+
+			# Remove VCF file and TSV file.
+			subprocess.run(["rm", vCDir + localName + ".vcf.gz"])
+			subprocess.run(["rm", procDir + localName + ".tsv"])
+
+		except Exception as exc:
+			errFile = "/home/ubuntu/err/dataAcqErrors.txt"
+			fileID = open(errFile, 'a')
+			fileID.write("Chromosome: " + chrom + "\n")
+			fileID.write(str(exc) + "\n")
+			fileID.close()
+
+if __name__ == '__main__':
+	main()
