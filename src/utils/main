@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+
+arg=${1:-pdist}
+path="/home/ubuntu/onekgenomes/"
+
+if [[ "$arg" == "pdist" ]]; then
+	rm nohup.out 2>/dev/null
+	nohup python3 pdist.py $path &
+elif [[ "$arg" == "assemble" ]]; then
+	python3 assemble.py $path
+elif [[ "$arg" == "matFiles" ]]; then
+	python3 matFiles.py $path
+else
+	echo "Invalid argument to main."
+fi
