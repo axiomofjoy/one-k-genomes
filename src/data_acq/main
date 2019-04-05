@@ -3,8 +3,8 @@
 path="/home/ubuntu/onekgenomes/"
 
 # Remove VCF files and nohup.out
-rm ${path}data/variantCalls/* 2>/dev/null
+rm ${path}data/variant_calls/* 2>/dev/null
 rm nohup.out 2>/dev/null
 
 # Run Python main file with nohup (check nohup.out for output)
-nohup python3 ${path}src/dataAcq/aux/main.py ${path} &
+nohup python3 ${path}src/data_acq/aux/main.py ${path} &

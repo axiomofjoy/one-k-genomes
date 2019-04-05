@@ -1,238 +1,0 @@
-download: 's3://1000genomes/release/20130502/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz'  [1 of 1]
-      65536 of 1216886729     0% in    0s   369.50 kB/s  111869952 of 1216886729     9% in    1s    89.61 MB/s  209649664 of 1216886729    17% in    2s    91.26 MB/s  301727744 of 1216886729    24% in    3s    90.16 MB/s  385286144 of 1216886729    31% in    4s    87.65 MB/s  493551616 of 1216886729    40% in    5s    90.65 MB/s  603193344 of 1216886729    49% in    6s    92.89 MB/s  674037760 of 1216886729    55% in    7s    89.36 MB/s  737083392 of 1216886729    60% in    8s    85.63 MB/s  833617920 of 1216886729    68% in    9s    86.16 MB/s  909246464 of 1216886729    74% in   10s    84.79 MB/s  987758592 of 1216886729    81% in   11s    83.90 MB/s 1103167488 of 1216886729    90% in   12s    86.04 MB/s 1216886729 of 1216886729   100% in   13s    87.89 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom2.vcf.gz'  [1 of 1]
-      65536 of 1312735578     0% in    0s   299.10 kB/s  115212288 of 1312735578     8% in    1s    90.47 MB/s  203423744 of 1312735578    15% in    2s    87.58 MB/s  283508736 of 1312735578    21% in    3s    84.09 MB/s  372310016 of 1312735578    28% in    4s    84.23 MB/s  451674112 of 1312735578    34% in    5s    81.37 MB/s  506462208 of 1312735578    38% in    6s    76.47 MB/s  580190208 of 1312735578    44% in    7s    75.62 MB/s  666632192 of 1312735578    50% in    8s    76.44 MB/s  723451904 of 1312735578    55% in    9s    73.91 MB/s  785973248 of 1312735578    59% in   10s    72.53 MB/s  852492288 of 1312735578    64% in   11s    71.42 MB/s  917766144 of 1312735578    69% in   12s    70.68 MB/s 1009975296 of 1312735578    76% in   13s    71.97 MB/s 1126563840 of 1312735578    85% in   14s    74.69 MB/s 1222115328 of 1312735578    93% in   15s    75.32 MB/s 1273954304 of 1312735578    97% in   16s    73.73 MB/s 1312735578 of 1312735578   100% in   17s    72.77 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr3.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom3.vcf.gz'  [1 of 1]
-      65536 of 1105776520     0% in    0s   364.81 kB/s   92209152 of 1105776520     8% in    1s    74.54 MB/s  170000384 of 1105776520    15% in    2s    74.37 MB/s  237109248 of 1105776520    21% in    3s    71.11 MB/s  302514176 of 1105776520    27% in    4s    69.01 MB/s  354877440 of 1105776520    32% in    5s    65.32 MB/s  421527552 of 1105776520    38% in    6s    64.95 MB/s  490471424 of 1105776520    44% in    7s    63.46 MB/s  565182464 of 1105776520    51% in    8s    64.34 MB/s  641466368 of 1105776520    58% in    9s    65.24 MB/s  720109568 of 1105776520    65% in   10s    66.06 MB/s  777584640 of 1105776520    70% in   11s    65.07 MB/s  836829184 of 1105776520    75% in   12s    64.38 MB/s  886964224 of 1105776520    80% in   13s    63.14 MB/s  966066176 of 1105776520    87% in   14s    63.99 MB/s 1030684672 of 1105776520    93% in   15s    63.02 MB/s 1105776520 of 1105776520   100% in   16s    64.89 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom4.vcf.gz'  [1 of 1]
-      65536 of 1117054318     0% in    0s   394.68 kB/s   78249984 of 1117054318     7% in    1s    64.12 MB/s  157286400 of 1117054318    14% in    2s    67.76 MB/s  261029888 of 1117054318    23% in    3s    77.37 MB/s  320929792 of 1117054318    28% in    4s    72.56 MB/s  362741760 of 1117054318    32% in    5s    65.43 MB/s  404029440 of 1117054318    36% in    6s    61.28 MB/s  518062080 of 1117054318    46% in    7s    67.80 MB/s  633339904 of 1117054318    56% in    8s    72.88 MB/s  745734144 of 1117054318    66% in    9s    76.57 MB/s  844234752 of 1117054318    75% in   10s    78.21 MB/s  920584192 of 1117054318    82% in   11s    77.70 MB/s  989986816 of 1117054318    88% in   12s    76.75 MB/s 1037565952 of 1117054318    92% in   13s    73.99 MB/s 1107296256 of 1117054318    99% in   14s    73.47 MB/s 1117054318 of 1117054318   100% in   14s    73.59 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom5.vcf.gz'  [1 of 1]
-     65536 of 989263345     0% in    0s   381.71 kB/s  57671680 of 989263345     5% in    1s    46.36 MB/s 108396544 of 989263345    10% in    2s    47.27 MB/s 176488448 of 989263345    17% in    3s    52.81 MB/s 290127872 of 989263345    29% in    4s    66.07 MB/s 399310848 of 989263345    40% in    5s    73.41 MB/s 459735040 of 989263345    46% in    6s    69.65 MB/s 518193152 of 989263345    52% in    7s    67.71 MB/s 581697536 of 989263345    58% in    8s    66.74 MB/s 612368384 of 989263345    61% in    9s    61.93 MB/s 647299072 of 989263345    65% in   10s    59.18 MB/s 713752576 of 989263345    72% in   11s    59.54 MB/s 828375040 of 989263345    83% in   12s    63.51 MB/s 920584192 of 989263345    93% in   13s    65.18 MB/s 985923584 of 989263345    99% in   14s    64.98 MB/s 989263345 of 989263345   100% in   14s    65.07 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr6.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom6.vcf.gz'  [1 of 1]
-     65536 of 999436830     0% in    0s   392.26 kB/s 113639424 of 999436830    11% in    1s    93.14 MB/s 190709760 of 999436830    19% in    2s    84.06 MB/s 268107776 of 999436830    26% in    3s    80.82 MB/s 367722496 of 999436830    36% in    4s    84.22 MB/s 448724992 of 999436830    44% in    5s    82.55 MB/s 539754496 of 999436830    54% in    6s    83.22 MB/s 617938944 of 999436830    61% in    7s    82.01 MB/s 672530432 of 999436830    67% in    8s    78.30 MB/s 729088000 of 999436830    72% in    9s    75.65 MB/s 810287104 of 999436830    81% in   10s    75.82 MB/s 910491648 of 999436830    91% in   11s    77.58 MB/s 993853440 of 999436830    99% in   12s    77.74 MB/s 999436830 of 999436830   100% in   12s    77.65 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr7.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom7.vcf.gz'  [1 of 1]
-     65536 of 908031088     0% in    0s   420.44 kB/s 114294784 of 908031088    12% in    1s    94.55 MB/s 191889408 of 908031088    21% in    2s    84.81 MB/s 252379136 of 908031088    27% in    3s    75.85 MB/s 333185024 of 908031088    36% in    4s    76.14 MB/s 448724992 of 908031088    49% in    5s    80.84 MB/s 501284864 of 908031088    55% in    6s    75.96 MB/s 572391424 of 908031088    63% in    7s    74.84 MB/s 688390144 of 908031088    75% in    8s    79.15 MB/s 802291712 of 908031088    88% in    9s    82.32 MB/s 897056768 of 908031088    98% in   10s    83.10 MB/s 908031088 of 908031088   100% in   10s    83.17 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr8.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom8.vcf.gz'  [1 of 1]
-     65536 of 861233457     0% in    0s   440.86 kB/s  74514432 of 861233457     8% in    1s    62.04 MB/s 145752064 of 861233457    16% in    2s    64.05 MB/s 240582656 of 861233457    27% in    3s    72.37 MB/s 326565888 of 861233457    37% in    4s    74.67 MB/s 402653184 of 861233457    46% in    5s    74.08 MB/s 525271040 of 861233457    60% in    6s    81.01 MB/s 647823360 of 861233457    75% in    7s    85.99 MB/s 731316224 of 861233457    84% in    8s    85.21 MB/s 805306368 of 861233457    93% in    9s    83.44 MB/s 861233457 of 861233457   100% in    9s    83.03 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr9.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom9.vcf.gz'  [1 of 1]
-     65536 of 672879733     0% in    0s   394.97 kB/s 114950144 of 672879733    17% in    1s    94.31 MB/s 177602560 of 672879733    26% in    2s    78.33 MB/s 247726080 of 672879733    36% in    3s    74.70 MB/s 323420160 of 672879733    48% in    4s    74.09 MB/s 427556864 of 672879733    63% in    5s    78.97 MB/s 492240896 of 672879733    73% in    6s    75.33 MB/s 561119232 of 672879733    83% in    7s    74.00 MB/s 640614400 of 672879733    95% in    8s    74.16 MB/s 672879733 of 672879733   100% in    8s    72.21 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom10.vcf.gz'  [1 of 1]
-     65536 of 773788987     0% in    0s   477.62 kB/s  72679424 of 773788987     9% in    1s    61.12 MB/s 134217728 of 773788987    17% in    2s    59.64 MB/s 203685888 of 773788987    26% in    3s    61.74 MB/s 268435456 of 773788987    34% in    4s    61.47 MB/s 387842048 of 773788987    50% in    5s    71.61 MB/s 495517696 of 773788987    64% in    6s    76.65 MB/s 615972864 of 773788987    79% in    7s    81.98 MB/s 720175104 of 773788987    93% in    8s    84.10 MB/s 773788987 of 773788987   100% in    8s    85.62 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr11.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom11.vcf.gz'  [1 of 1]
-     65536 of 767084423     0% in    0s   369.92 kB/s  81330176 of 767084423    10% in    1s    66.10 MB/s 165871616 of 767084423    21% in    2s    72.78 MB/s 284229632 of 767084423    37% in    3s    85.40 MB/s 400949248 of 767084423    52% in    4s    91.59 MB/s 498597888 of 767084423    64% in    5s    91.89 MB/s 597950464 of 767084423    77% in    6s    92.35 MB/s 705232896 of 767084423    91% in    7s    93.56 MB/s 765001728 of 767084423    99% in    8s    89.09 MB/s 767084423 of 767084423   100% in    8s    88.58 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr12.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom12.vcf.gz'  [1 of 1]
-     65536 of 740805962     0% in    0s   424.98 kB/s  80740352 of 740805962    10% in    1s    66.04 MB/s 156827648 of 740805962    21% in    2s    69.04 MB/s 268435456 of 740805962    36% in    3s    80.35 MB/s 381419520 of 740805962    51% in    4s    86.89 MB/s 450297856 of 740805962    60% in    5s    82.59 MB/s 525271040 of 740805962    70% in    6s    80.79 MB/s 598802432 of 740805962    80% in    7s    79.30 MB/s 671612928 of 740805962    90% in    8s    78.09 MB/s 740805962 of 740805962   100% in    9s    77.98 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr13.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom13.vcf.gz'  [1 of 1]
-     65536 of 556832848     0% in    0s   537.49 kB/s 100270080 of 556832848    18% in    1s    85.38 MB/s 205651968 of 556832848    36% in    2s    92.50 MB/s 308084736 of 556832848    55% in    3s    94.15 MB/s 397606912 of 556832848    71% in    4s    92.01 MB/s 481624064 of 556832848    86% in    5s    89.69 MB/s 556832848 of 556832848   100% in    6s    88.23 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr14.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom14.vcf.gz'  [1 of 1]
-     65536 of 506573037     0% in    0s   534.61 kB/s 110821376 of 506573037    21% in    1s    94.37 MB/s 208470016 of 506573037    41% in    2s    93.78 MB/s 301465600 of 506573037    59% in    3s    92.14 MB/s 402653184 of 506573037    79% in    4s    93.19 MB/s 506573037 of 506573037   100% in    5s    94.82 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr15.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom15.vcf.gz'  [1 of 1]
-     65536 of 457900567     0% in    0s   558.84 kB/s  57737216 of 457900567    12% in    1s    47.98 MB/s 103743488 of 457900567    22% in    2s    45.23 MB/s 150011904 of 457900567    32% in    3s    44.88 MB/s 230948864 of 457900567    50% in    4s    52.59 MB/s 306774016 of 457900567    66% in    5s    56.39 MB/s 383713280 of 457900567    83% in    6s    58.25 MB/s 457900567 of 457900567   100% in    7s    61.21 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr16.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom16.vcf.gz'  [1 of 1]
-     65536 of 495134005     0% in    0s   650.93 kB/s  92209152 of 495134005    18% in    1s    72.72 MB/s 191430656 of 495134005    38% in    2s    82.63 MB/s 307101696 of 495134005    62% in    3s    91.22 MB/s 414908416 of 495134005    83% in    4s    93.86 MB/s 495134005 of 495134005   100% in    4s    95.18 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr17.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom17.vcf.gz'  [1 of 1]
-     65536 of 434623611     0% in    0s   531.78 kB/s 111280128 of 434623611    25% in    1s    94.63 MB/s 196870144 of 434623611    45% in    2s    88.50 MB/s 278200320 of 434623611    64% in    3s    84.98 MB/s 396165120 of 434623611    91% in    4s    91.65 MB/s 434623611 of 434623611   100% in    4s    89.89 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr18.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom18.vcf.gz'  [1 of 1]
-     65536 of 436425683     0% in    0s   697.59 kB/s  69206016 of 436425683    15% in    1s    59.54 MB/s 136052736 of 436425683    31% in    2s    61.53 MB/s 220987392 of 436425683    50% in    3s    67.79 MB/s 287506432 of 436425683    65% in    4s    66.73 MB/s 404815872 of 436425683    92% in    5s    75.56 MB/s 436425683 of 436425683   100% in    5s    77.44 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom19.vcf.gz'  [1 of 1]
-     65536 of 359519603     0% in    0s   463.09 kB/s 111738880 of 359519603    31% in    1s    93.44 MB/s 213188608 of 359519603    59% in    2s    94.98 MB/s 303890432 of 359519603    84% in    3s    92.27 MB/s 359519603 of 359519603   100% in    3s    90.61 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr20.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom20.vcf.gz'  [1 of 1]
-     65536 of 341680844     0% in    0s   360.43 kB/s  84934656 of 341680844    24% in    1s    68.65 MB/s 170262528 of 341680844    49% in    2s    74.49 MB/s 249495552 of 341680844    73% in    3s    74.66 MB/s 341680844 of 341680844   100% in    4s    79.89 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom21.vcf.gz'  [1 of 1]
-     65536 of 218612970     0% in    0s   570.82 kB/s  75694080 of 218612970    34% in    1s    64.88 MB/s 132644864 of 218612970    60% in    2s    59.87 MB/s 218612970 of 218612970   100% in    3s    67.52 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chr22.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom22.vcf.gz'  [1 of 1]
-     65536 of 214453750     0% in    0s   513.12 kB/s 106299392 of 214453750    49% in    1s    90.10 MB/s 205979648 of 214453750    96% in    2s    92.41 MB/s 214453750 of 214453750   100% in    2s    92.90 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chromX.vcf.gz'  [1 of 1]
-      65536 of 1923680177     0% in    0s   481.33 kB/s   91488256 of 1923680177     4% in    1s    76.99 MB/s  160169984 of 1923680177     8% in    2s    71.24 MB/s  225509376 of 1923680177    11% in    3s    68.38 MB/s  283508736 of 1923680177    14% in    4s    65.22 MB/s  375980032 of 1923680177    19% in    5s    69.68 MB/s  469237760 of 1923680177    24% in    6s    72.81 MB/s  569573376 of 1923680177    29% in    7s    75.99 MB/s  680329216 of 1923680177    35% in    8s    79.63 MB/s  785383424 of 1923680177    40% in    9s    81.87 MB/s  895221760 of 1923680177    46% in   10s    84.12 MB/s  981991424 of 1923680177    51% in   11s    83.71 MB/s 1058537472 of 1923680177    55% in   12s    82.83 MB/s 1113391104 of 1923680177    57% in   13s    80.51 MB/s 1170210816 of 1923680177    60% in   14s    78.65 MB/s 1217396736 of 1923680177    63% in   15s    76.32 MB/s 1306460160 of 1923680177    67% in   16s    76.85 MB/s 1384906752 of 1923680177    71% in   17s    76.73 MB/s 1456078848 of 1923680177    75% in   18s    76.24 MB/s 1549467648 of 1923680177    80% in   19s    76.91 MB/s 1658126336 of 1923680177    86% in   20s    78.23 MB/s 1754267648 of 1923680177    91% in   21s    78.82 MB/s 1839136768 of 1923680177    95% in   22s    78.89 MB/s 1907359744 of 1923680177    99% in   23s    78.23 MB/s 1923680177 of 1923680177   100% in   23s    78.43 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-download: 's3://1000genomes/release/20130502/ALL.chrY.phase3_integrated_v1b.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chromY.vcf.gz'  [1 of 1]
-   65536 of 5867368     1% in    0s   679.41 kB/s 5867368 of 5867368   100% in    0s    38.56 MB/s  done
-gzip: /home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz: No such file or directory
-Chromosome: 1
-Chromosome: 2
-Chromosome: 3
-Chromosome: 4
-Chromosome: 5
-Chromosome: 6
-Chromosome: 7
-Chromosome: 8
-Chromosome: 9
-Chromosome: 10
-Chromosome: 11
-Chromosome: 12
-Chromosome: 13
-Chromosome: 14
-Chromosome: 15
-Chromosome: 16
-Chromosome: 17
-Chromosome: 18
-Chromosome: 19
-Chromosome: 20
-Chromosome: 21
-Chromosome: 22
-Chromosome: X
-Chromosome: Y
-download: 's3://1000genomes/release/20130502/ALL.chr1.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom1.vcf.gz'  [1 of 1]
-      65536 of 1216886729     0% in    0s   405.58 kB/s   97779712 of 1216886729     8% in    1s    80.49 MB/s  197328896 of 1216886729    16% in    2s    87.18 MB/s  274202624 of 1216886729    22% in    3s    82.67 MB/s  336461824 of 1216886729    27% in    4s    77.03 MB/s  363528192 of 1216886729    29% in    5s    67.12 MB/s  402653184 of 1216886729    33% in    6s    61.91 MB/s  515309568 of 1216886729    42% in    7s    68.22 MB/s  593821696 of 1216886729    48% in    8s    69.03 MB/s  671088640 of 1216886729    55% in    9s    68.88 MB/s  727711744 of 1216886729    59% in   10s    67.39 MB/s  768802816 of 1216886729    63% in   11s    64.89 MB/s  820641792 of 1216886729    67% in   12s    63.58 MB/s  861929472 of 1216886729    70% in   13s    61.68 MB/s  917766144 of 1216886729    75% in   14s    61.09 MB/s  982253568 of 1216886729    80% in   15s    61.11 MB/s 1090715648 of 1216886729    89% in   16s    63.70 MB/s 1201995776 of 1216886729    98% in   17s    66.15 MB/s 1216886729 of 1216886729   100% in   17s    66.49 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr2.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom2.vcf.gz'  [1 of 1]
-      65536 of 1312735578     0% in    0s   389.67 kB/s  115277824 of 1312735578     8% in    1s    94.40 MB/s  191889408 of 1312735578    14% in    2s    84.02 MB/s  284033024 of 1312735578    21% in    3s    85.22 MB/s  372244480 of 1312735578    28% in    4s    84.25 MB/s  449052672 of 1312735578    34% in    5s    82.13 MB/s  514326528 of 1312735578    39% in    6s    78.66 MB/s  594542592 of 1312735578    45% in    7s    78.26 MB/s  665124864 of 1312735578    50% in    8s    76.90 MB/s  737083392 of 1312735578    56% in    9s    75.99 MB/s  803143680 of 1312735578    61% in   10s    74.64 MB/s  890241024 of 1312735578    67% in   11s    75.36 MB/s  959840256 of 1312735578    73% in   12s    74.63 MB/s 1078788096 of 1312735578    82% in   13s    77.55 MB/s 1181614080 of 1312735578    90% in   14s    78.98 MB/s 1252655104 of 1312735578    95% in   15s    78.24 MB/s 1307574272 of 1312735578    99% in   16s    76.35 MB/s 1312735578 of 1312735578   100% in   16s    76.39 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr3.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom3.vcf.gz'  [1 of 1]
-      65536 of 1105776520     0% in    0s   423.57 kB/s  113311744 of 1105776520    10% in    1s    93.85 MB/s  190840832 of 1105776520    17% in    2s    84.55 MB/s  249757696 of 1105776520    22% in    3s    75.34 MB/s  314507264 of 1105776520    28% in    4s    71.98 MB/s  395116544 of 1105776520    35% in    5s    72.92 MB/s  459276288 of 1105776520    41% in    6s    70.83 MB/s  546308096 of 1105776520    49% in    7s    72.37 MB/s  614137856 of 1105776520    55% in    8s    71.43 MB/s  705298432 of 1105776520    63% in    9s    73.12 MB/s  819724288 of 1105776520    74% in   10s    76.64 MB/s  905773056 of 1105776520    81% in   11s    77.12 MB/s  987103232 of 1105776520    89% in   12s    77.16 MB/s 1096286208 of 1105776520    99% in   13s    79.20 MB/s 1105776520 of 1105776520   100% in   13s    79.41 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr4.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom4.vcf.gz'  [1 of 1]
-      65536 of 1117054318     0% in    0s   326.84 kB/s   52232192 of 1117054318     4% in    1s    39.68 MB/s  124190720 of 1117054318    11% in    2s    52.49 MB/s  196542464 of 1117054318    17% in    3s    55.29 MB/s  266534912 of 1117054318    23% in    4s    57.90 MB/s  333250560 of 1117054318    29% in    5s    58.96 MB/s  411697152 of 1117054318    36% in    6s    61.44 MB/s  518324224 of 1117054318    46% in    7s    66.88 MB/s  630980608 of 1117054318    56% in    8s    71.71 MB/s  745275392 of 1117054318    66% in    9s    75.68 MB/s  832634880 of 1117054318    74% in   10s    76.40 MB/s  886767616 of 1117054318    79% in   11s    74.22 MB/s  934805504 of 1117054318    83% in   12s    71.93 MB/s  988872704 of 1117054318    88% in   13s    70.41 MB/s 1044709376 of 1117054318    93% in   14s    69.18 MB/s 1117054318 of 1117054318   100% in   15s    69.54 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr5.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom5.vcf.gz'  [1 of 1]
-     65536 of 989263345     0% in    0s   499.48 kB/s  82116608 of 989263345     8% in    1s    68.82 MB/s 179503104 of 989263345    18% in    2s    80.07 MB/s 298647552 of 989263345    30% in    3s    90.76 MB/s 403767296 of 989263345    40% in    4s    92.84 MB/s 466026496 of 989263345    47% in    5s    86.34 MB/s 517079040 of 989263345    52% in    6s    79.08 MB/s 558628864 of 989263345    56% in    7s    73.63 MB/s 645398528 of 989263345    65% in    8s    74.73 MB/s 724369408 of 989263345    73% in    9s    74.79 MB/s 839843840 of 989263345    84% in   10s    77.87 MB/s 920584192 of 989263345    93% in   11s    77.76 MB/s 989263345 of 989263345   100% in   12s    77.78 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr6.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom6.vcf.gz'  [1 of 1]
-     65536 of 999436830     0% in    0s   338.54 kB/s 113049600 of 999436830    11% in    1s    90.59 MB/s 185597952 of 999436830    18% in    2s    80.81 MB/s 252444672 of 999436830    25% in    3s    75.46 MB/s 345833472 of 999436830    34% in    4s    78.70 MB/s 416481280 of 999436830    41% in    5s    76.51 MB/s 468910080 of 999436830    46% in    6s    72.02 MB/s 530644992 of 999436830    53% in    7s    70.19 MB/s 592117760 of 999436830    59% in    8s    68.78 MB/s 652148736 of 999436830    65% in    9s    67.51 MB/s 707133440 of 999436830    70% in   10s    65.85 MB/s 758317056 of 999436830    75% in   11s    64.20 MB/s 787611648 of 999436830    78% in   12s    61.23 MB/s 815398912 of 999436830    81% in   13s    58.33 MB/s 858914816 of 999436830    85% in   14s    57.13 MB/s 902037504 of 999436830    90% in   15s    56.09 MB/s 985595904 of 999436830    98% in   16s    57.29 MB/s 999436830 of 999436830   100% in   16s    57.70 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr7.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom7.vcf.gz'  [1 of 1]
-     65536 of 908031088     0% in    0s   401.92 kB/s 112984064 of 908031088    12% in    1s    92.93 MB/s 198770688 of 908031088    21% in    2s    87.77 MB/s 286588928 of 908031088    31% in    3s    86.44 MB/s 407764992 of 908031088    44% in    4s    93.42 MB/s 473235456 of 908031088    52% in    5s    87.42 MB/s 536870912 of 908031088    59% in    6s    83.03 MB/s 659226624 of 908031088    72% in    7s    87.72 MB/s 768999424 of 908031088    84% in    8s    89.79 MB/s 891092992 of 908031088    98% in    9s    92.70 MB/s 908031088 of 908031088   100% in    9s    93.06 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr8.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom8.vcf.gz'  [1 of 1]
-     65536 of 861233457     0% in    0s   382.49 kB/s  61603840 of 861233457     7% in    1s    50.32 MB/s 143458304 of 861233457    16% in    2s    63.11 MB/s 245366784 of 861233457    28% in    3s    73.87 MB/s 335413248 of 861233457    38% in    4s    76.74 MB/s 445448192 of 861233457    51% in    5s    82.19 MB/s 556072960 of 861233457    64% in    6s    85.97 MB/s 670564352 of 861233457    77% in    7s    89.21 MB/s 754057216 of 861233457    87% in    8s    88.03 MB/s 828637184 of 861233457    96% in    9s    86.18 MB/s 861233457 of 861233457   100% in    9s    85.16 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr9.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom9.vcf.gz'  [1 of 1]
-     65536 of 672879733     0% in    0s   472.86 kB/s 109510656 of 672879733    16% in    1s    91.95 MB/s 181403648 of 672879733    26% in    2s    79.32 MB/s 242745344 of 672879733    36% in    3s    72.59 MB/s 337444864 of 672879733    50% in    4s    76.81 MB/s 441516032 of 672879733    65% in    5s    81.10 MB/s 506396672 of 672879733    75% in    6s    77.96 MB/s 574554112 of 672879733    85% in    7s    75.37 MB/s 668270592 of 672879733    99% in    8s    77.06 MB/s 672879733 of 672879733   100% in    8s    76.36 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr10.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom10.vcf.gz'  [1 of 1]
-     65536 of 773788987     0% in    0s   479.51 kB/s  94306304 of 773788987    12% in    1s    77.79 MB/s 191496192 of 773788987    24% in    2s    84.69 MB/s 247660544 of 773788987    32% in    3s    74.83 MB/s 354287616 of 773788987    45% in    4s    81.29 MB/s 454295552 of 773788987    58% in    5s    84.01 MB/s 566362112 of 773788987    73% in    6s    87.72 MB/s 684785664 of 773788987    88% in    7s    91.24 MB/s 773788987 of 773788987   100% in    7s    93.04 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr11.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom11.vcf.gz'  [1 of 1]
-     65536 of 767084423     0% in    0s   382.14 kB/s  70647808 of 767084423     9% in    1s    56.29 MB/s 126812160 of 767084423    16% in    2s    54.85 MB/s 203620352 of 767084423    26% in    3s    60.58 MB/s 309854208 of 767084423    40% in    4s    70.26 MB/s 416546816 of 767084423    54% in    5s    76.31 MB/s 499515392 of 767084423    65% in    6s    76.76 MB/s 574947328 of 767084423    74% in    7s    76.08 MB/s 693501952 of 767084423    90% in    8s    80.57 MB/s 756023296 of 767084423    98% in    9s    78.02 MB/s 767084423 of 767084423   100% in    9s    77.92 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr12.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom12.vcf.gz'  [1 of 1]
-     65536 of 740805962     0% in    0s   417.71 kB/s  65994752 of 740805962     8% in    1s    54.02 MB/s 120651776 of 740805962    16% in    2s    53.14 MB/s 219807744 of 740805962    29% in    3s    66.22 MB/s 342425600 of 740805962    46% in    4s    78.39 MB/s 455147520 of 740805962    61% in    5s    84.02 MB/s 529137664 of 740805962    71% in    6s    81.83 MB/s 605224960 of 740805962    81% in    7s    80.48 MB/s 697434112 of 740805962    94% in    8s    81.39 MB/s 740805962 of 740805962   100% in    8s    82.16 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr13.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom13.vcf.gz'  [1 of 1]
-     65536 of 556832848     0% in    0s   413.19 kB/s 109248512 of 556832848    19% in    1s    83.48 MB/s 223215616 of 556832848    40% in    2s    94.68 MB/s 306118656 of 556832848    54% in    3s    89.85 MB/s 355205120 of 556832848    63% in    4s    79.71 MB/s 415629312 of 556832848    74% in    5s    75.50 MB/s 483328000 of 556832848    86% in    6s    73.47 MB/s 536018944 of 556832848    96% in    7s    69.81 MB/s 556832848 of 556832848   100% in    7s    70.16 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr14.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom14.vcf.gz'  [1 of 1]
-     65536 of 506573037     0% in    0s   429.17 kB/s 108265472 of 506573037    21% in    1s    89.70 MB/s 212598784 of 506573037    41% in    2s    94.25 MB/s 311033856 of 506573037    61% in    3s    94.12 MB/s 404226048 of 506573037    79% in    4s    92.85 MB/s 506573037 of 506573037   100% in    5s    94.24 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr15.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom15.vcf.gz'  [1 of 1]
-     65536 of 457900567     0% in    0s   442.79 kB/s  64552960 of 457900567    14% in    1s    53.76 MB/s 134021120 of 457900567    29% in    2s    59.57 MB/s 188940288 of 457900567    41% in    3s    55.75 MB/s 271843328 of 457900567    59% in    4s    61.26 MB/s 337641472 of 457900567    73% in    5s    61.29 MB/s 403570688 of 457900567    88% in    6s    61.54 MB/s 457900567 of 457900567   100% in    6s    63.06 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr16.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom16.vcf.gz'  [1 of 1]
-     65536 of 495134005     0% in    0s   288.76 kB/s  48758784 of 495134005     9% in    1s    38.06 MB/s  96993280 of 495134005    19% in    2s    41.62 MB/s 147652608 of 495134005    29% in    3s    43.69 MB/s 204931072 of 495134005    41% in    4s    46.28 MB/s 265617408 of 495134005    53% in    5s    48.49 MB/s 357826560 of 495134005    72% in    6s    54.83 MB/s 455081984 of 495134005    91% in    7s    60.08 MB/s 495134005 of 495134005   100% in    7s    61.70 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr17.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom17.vcf.gz'  [1 of 1]
-     65536 of 434623611     0% in    0s   531.63 kB/s  91095040 of 434623611    20% in    1s    77.51 MB/s 157286400 of 434623611    36% in    2s    70.38 MB/s 238026752 of 434623611    54% in    3s    72.43 MB/s 324927488 of 434623611    74% in    4s    74.95 MB/s 434623611 of 434623611   100% in    5s    82.24 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr18.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom18.vcf.gz'  [1 of 1]
-     65536 of 436425683     0% in    0s   459.56 kB/s  70647808 of 436425683    16% in    1s    58.42 MB/s 139526144 of 436425683    31% in    2s    61.79 MB/s 224002048 of 436425683    51% in    3s    67.74 MB/s 319291392 of 436425683    73% in    4s    73.31 MB/s 423952384 of 436425683    97% in    5s    78.45 MB/s 436425683 of 436425683   100% in    5s    79.11 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr19.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom19.vcf.gz'  [1 of 1]
-     65536 of 359519603     0% in    0s   460.81 kB/s  86179840 of 359519603    23% in    1s    72.13 MB/s 191037440 of 359519603    53% in    2s    85.14 MB/s 306053120 of 359519603    85% in    3s    92.96 MB/s 359519603 of 359519603   100% in    3s    94.45 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr20.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom20.vcf.gz'  [1 of 1]
-     65536 of 341680844     0% in    0s   430.46 kB/s  78839808 of 341680844    23% in    1s    65.43 MB/s 134217728 of 341680844    39% in    2s    58.62 MB/s 219480064 of 341680844    64% in    3s    65.73 MB/s 298778624 of 341680844    87% in    4s    68.09 MB/s 341680844 of 341680844   100% in    4s    71.71 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr21.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom21.vcf.gz'  [1 of 1]
-     65536 of 218612970     0% in    0s   516.68 kB/s  78708736 of 218612970    36% in    1s    66.78 MB/s 155385856 of 218612970    71% in    2s    69.76 MB/s 206307328 of 218612970    94% in    3s    62.97 MB/s 218612970 of 218612970   100% in    3s    59.09 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chr22.phase3_shapeit2_mvncall_integrated_v5a.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chrom22.vcf.gz'  [1 of 1]
-     65536 of 214453750     0% in    0s   643.44 kB/s 107347968 of 214453750    50% in    1s    93.05 MB/s 202899456 of 214453750    94% in    2s    92.13 MB/s 214453750 of 214453750   100% in    2s    93.20 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chromX.vcf.gz'  [1 of 1]
-      65536 of 1923680177     0% in    0s   413.55 kB/s   63897600 of 1923680177     3% in    1s    52.37 MB/s  124846080 of 1923680177     6% in    2s    55.00 MB/s  200867840 of 1923680177    10% in    3s    60.53 MB/s  256507904 of 1923680177    13% in    4s    58.73 MB/s  307888128 of 1923680177    16% in    5s    56.84 MB/s  372178944 of 1923680177    19% in    6s    57.46 MB/s  385744896 of 1923680177    20% in    8s    42.87 MB/s  480706560 of 1923680177    24% in    9s    47.78 MB/s  569376768 of 1923680177    29% in   10s    51.24 MB/s  590938112 of 1923680177    30% in   11s    48.12 MB/s  683409408 of 1923680177    35% in   12s    51.27 MB/s  760152064 of 1923680177    39% in   13s    52.87 MB/s
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    An unexpected error has occurred.
-  Please try reproducing the error using
-  the latest s3cmd code from the git master
-  branch found at:
-    https://github.com/s3tools/s3cmd
-  and have a look at the known issues list:
-    https://github.com/s3tools/s3cmd/wiki/Common-known-issues-and-their-solutions
-  If the error persists, please report the
-  following lines (removing any private
-  info as necessary) to:
-   s3tools-bugs@lists.sourceforge.net
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Invoked as: /usr/bin/s3cmd get s3://1000genomes/release/20130502/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz /home/ubuntu/onekgenomes/data/variantCalls/chromX.vcf.gz
-Problem: <class 'OSError: [Errno 28] No space left on device
-S3cmd:   2.0.1
-python:   3.6.7 (default, Oct 22 2018, 11:32:17) 
-[GCC 8.2.0]
-environment LANG=C.UTF-8
-
-Traceback (most recent call last):
-  File "/usr/bin/s3cmd", line 3073, in <module>
-    rc = main()
-  File "/usr/bin/s3cmd", line 2989, in main
-    rc = cmd_func(args)
-  File "/usr/bin/s3cmd", line 585, in cmd_object_get
-    response = s3.object_get(uri, dst_stream, destination, start_position = start_position, extra_label = seq_label)
-  File "/usr/lib/python3/dist-packages/S3/S3.py", line 715, in object_get
-    response = self.recv_file(request, stream, labels, start_position)
-  File "/usr/lib/python3/dist-packages/S3/S3.py", line 1703, in recv_file
-    stream.write(data)
-OSError: [Errno 28] No space left on device
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    An unexpected error has occurred.
-  Please try reproducing the error using
-  the latest s3cmd code from the git master
-  branch found at:
-    https://github.com/s3tools/s3cmd
-  and have a look at the known issues list:
-    https://github.com/s3tools/s3cmd/wiki/Common-known-issues-and-their-solutions
-  If the error persists, please report the
-  above lines (removing any private
-  info as necessary) to:
-   s3tools-bugs@lists.sourceforge.net
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-Traceback (most recent call last):
-  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/lib/npyio.py", line 728, in _savez
-    pickle_kwargs=pickle_kwargs)
-  File "/home/ubuntu/.local/lib/python3.6/site-packages/numpy/lib/format.py", line 645, in write_array
-    fp.write(chunk.tobytes('C'))
-  File "/usr/lib/python3.6/zipfile.py", line 1015, in write
-    self._fileobj.write(data)
-OSError: [Errno 28] No space left on device
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/ubuntu/onekgenomes/src/dataAcq/aux/toSparseMat.py", line 31, in <module>
-    main()
-  File "/home/ubuntu/onekgenomes/src/dataAcq/aux/toSparseMat.py", line 22, in main
-    saveSparseMat(rowsdownload: 's3://1000genomes/release/20130502/ALL.chrY.phase3_integrated_v1b.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chromY.vcf.gz'  [1 of 1]
-   65536 of 5867368     1% in    0s   473.15 kB/s 5867368 of 5867368   100% in    0s    26.76 MB/s  done
-Chromosome: 1
-Chromosome: 2
-Chromosome: 3
-Chromosome: 4
-Chromosome: 5
-Chromosome: 6
-Chromosome: 7
-Chromosome: 8
-Chromosome: 9
-Chromosome: 10
-Chromosome: 11
-Chromosome: 12
-Chromosome: 13
-Chromosome: 14
-Chromosome: 15
-Chromosome: 16
-Chromosome: 17
-Chromosome: 18
-Chromosome: 19
-Chromosome: 20
-Chromosome: 21
-Chromosome: 22
-Chromosome: X
-Chromosome: Y
-download: 's3://1000genomes/release/20130502/ALL.chrX.phase3_shapeit2_mvncall_integrated_v1b.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chromX.vcf.gz'  [1 of 1]
-      65536 of 1923680177     0% in    0s   280.91 kB/s   81920000 of 1923680177     4% in    1s    63.61 MB/s  154140672 of 1923680177     8% in    2s    65.96 MB/s  207749120 of 1923680177    10% in    3s    61.36 MB/s  240844800 of 1923680177    12% in    4s    53.27 MB/s  299892736 of 1923680177    15% in    5s    53.84 MB/s  390856704 of 1923680177    20% in    6s    59.05 MB/s  460521472 of 1923680177    23% in    7s    60.02 MB/s  516227072 of 1923680177    26% in    8s    59.06 MB/s  571801600 of 1923680177    29% in    9s    58.41 MB/s  663027712 of 1923680177    34% in   10s    61.17 MB/s  778829824 of 1923680177    40% in   11s    65.52 MB/s  856752128 of 1923680177    44% in   12s    66.23 MB/s  948961280 of 1923680177    49% in   13s    67.78 MB/s 1017774080 of 1923680177    52% in   14s    67.63 MB/s 1076101120 of 1923680177    55% in   15s    66.84 MB/s 1136197632 of 1923680177    59% in   16s    66.24 MB/s 1198718976 of 1923680177    62% in   17s    65.61 MB/s 1261043712 of 1923680177    65% in   18s    65.22 MB/s 1295122432 of 1923680177    67% in   19s    63.36 MB/s 1346437120 of 1923680177    69% in   20s    62.65 MB/s 1398079488 of 1923680177    72% in   21s    62.03 MB/s 1462632448 of 1923680177    76% in   22s    62.01 MB/s 1548222464 of 1923680177    80% in   23s    62.84 MB/s 1648295936 of 1923680177    85% in   24s    64.13 MB/s 1728380928 of 1923680177    89% in   25s    64.61 MB/s 1787559936 of 1923680177    92% in   26s    64.30 MB/s 1858076672 of 1923680177    96% in   27s    64.36 MB/s 1920794624 of 1923680177    99% in   28s    64.20 MB/s 1923680177 of 1923680177   100% in   28s    64.24 MB/s  done
-download: 's3://1000genomes/release/20130502/ALL.chrY.phase3_integrated_v1b.20130502.genotypes.vcf.gz' -> '/home/ubuntu/onekgenomes/data/variantCalls/chromY.vcf.gz'  [1 of 1]
-   65536 of 5867368     1% in    0s   593.14 kB/s 5867368 of 5867368   100% in    0s    32.06 MB/s  done
-Chromosome: X
-Chromosome: Y
