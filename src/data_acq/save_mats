@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+path="/home/ubuntu/one-k-genomes/"
+
+# Remove VCF files and nohup.out.
+rm ${path}data/variant_calls/* 2>/dev/null
+rm nohup.out 2>/dev/null
+
+# Run Python main file with nohup.
+# nohup python3 ${path}src/data_acq/download_genomes/main.py ${path} &
+
+python3 ${path}src/data_acq/download_genomes/main.py ${path}
