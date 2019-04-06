@@ -5,13 +5,31 @@ entry to a :code:`scipy` sparse COO matrix. These matrices are
 periodically saved to disk. It requires two command-line arguments
 specifying the chromosome and the full path to :code:`<PROJECT_ROOT>`.
 """
-
+ 
 
 import sys
 import scipy.sparse as sparse
 
 
+# Define constant.
+MAX_SIZE = 1e8
+
+
 def save_sparse_mat(rows, cols, mat_file):
+    """
+    This function creates and saves :code:`scipy` sparse matrices.
+
+    Given lists of row and column indices, this function adds non-zero
+    entries in a :code:`scipy` sparse COO matrix and save the matrix to
+    disk as a :code:`.npy` file.
+
+    :param list rows: Row indices for non-zero entries.
+    :param list cols: Column indices for non-zero entries.
+    :returns: Nothing.
+    :rtype: :code:`None`.
+
+    """
+
     data = [True] * len(rows)
     var_mat = sparse.coo_matrix((data, (rows, cols)), dtype=bool)
     sparse.save_npz(mat_file, var_mat)
@@ -25,7 +43,6 @@ def main():
 
     # Initialize variables.
     rows, cols = list(), list()
-    max_size = 1e8
     mat_num = 1
 
     # Read from stdin.
@@ -34,8 +51,8 @@ def main():
         rows.append(row)
         cols.append(col)
 
-        # Write to file when matrix has max_size entries.
-        if count % max_size == max_size - 1:
+        # Write to file when matrix has MAX_SIZE entries.
+        if count % MAX_SIZE == MAX_SIZE - 1:
             mat_file = "{:s}data/sparse_mats/chrom{:s}-{:s}.npz".format(
                 path,
                 chrom,
