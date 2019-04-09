@@ -18,10 +18,10 @@ def load_obj(file):
         return pickle.load(fid)
 
 # Get data.
-X = np.load("/home/ubuntu/onekgenomes/data/dimReduc/completePCA/embeddedNum.npy")
+X = np.load("/home/ubuntu/one-k-genomes/data/dim_reduc/complete_pca/embedded_num.npy")
 
 # Get labels.
-df = pd.read_csv("/home/ubuntu/onekgenomes/data/sampleData/sampleData.tsv", sep='\t')
+df = pd.read_csv("/home/ubuntu/one-k-genomes/data/sample_data/sample_data.tsv", sep='\t')
 pops = list(set(df["Population"].tolist()))
 pops.sort()
 num_classes = len(pops)
@@ -77,17 +77,14 @@ p = {
 
 # Second parameter search space.
 p = {
-    "dropout_input": np.linspace(0.0, 0.25, 26),
-    "dropout_hidden": np.linspace(0,0.5, 51),
-    "reg": np.linspace(0,0.25,26),
+    "dropout_input": np.linspace(0.0, 0.2, 3),
+    "dropout_hidden": np.linspace(0, 0.5, 6),
+    "reg": np.linspace(0, 0.25, 6),
     "lr": 10 ** np.linspace(-4, np.log10(5) - 3, 10),
-    "epochs": [100, 150, 200]
+    "epochs": [100]
 }
 
 # Scan.
-num_permutations = 26 * 51 * 26 * 10 * 3
-num_search = 300
-percent = num_search / num_permutations
 param_search = talos.Scan(
     x=X_train,
     y=y_train,
@@ -95,11 +92,11 @@ param_search = talos.Scan(
     y_val=y_val,
     model=genomes_model,
     params=p,
-    grid_downsample=percent    # Percent of parameter space to search.
+    grid_downsample=0.2
 )
 
 # Save data.
 df = param_search.data
 df.sort_values(by=["val_acc"], inplace=True, ascending=False)
-df.to_csv("output/parameters_search2.csv")
+df.to_csv("output/model1_test3.csv")
 

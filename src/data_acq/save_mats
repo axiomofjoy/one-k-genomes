@@ -8,4 +8,4 @@ rm nohup.out 2>/dev/null
 
 # Run Python main file with nohup.
 
-python3 main.py ${path}
+nohup python3 main.py ${path} &

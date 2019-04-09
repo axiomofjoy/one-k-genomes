@@ -19,10 +19,10 @@ def load_obj(file):
         return pickle.load(fid)
 
 # Get data.
-X = np.load("/home/ubuntu/onekgenomes/data/dimReduc/completePCA/embeddedNum.npy")
+X = np.load("/home/ubuntu/one-k-genomes/data/dim_reduc/complete_pca/embedded_num.npy")
 
 # Get labels.
-df = pd.read_csv("/home/ubuntu/onekgenomes/data/sampleData/sampleData.tsv", sep='\t')
+df = pd.read_csv("/home/ubuntu/one-k-genomes/data/sample_data/sample_data.tsv", sep='\t')
 pops = list(set(df["Population"].tolist()))
 pops.sort()
 num_classes = len(pops)
@@ -50,7 +50,7 @@ p = {
     "dropout_input": 0.15, 
     "dropout_hidden": 0.25, 
     "reg": 0.01, 
-    "lr": 10 ** -1, 
+    "lr": 10 ** -2, 
     "epochs": 100
 }
 

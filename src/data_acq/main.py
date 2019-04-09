@@ -15,7 +15,7 @@ def main():
     assert len(sys.argv) == 2, "Command-line argument is required."
     PATH = sys.argv[1]
     chroms = list(map(str, range(1,23))) + ['x', 'y']
-    for chrom in chroms[:1]:
+    for chrom in chroms:
         # Display current chromosome.
         print("Chromosome: {:s}".format(chrom))
 
