@@ -1,4 +1,6 @@
-/*
+/* This code is taken from https://github.com/bwlewis/1000_genomes_examples.
+ * I have made some slight modifications to the original code.
+ *
  * Parse a binary 1000 genomes vcf file into two-column text output like:
  * variant_number\tsample_number\n
  * variant_number\tsample_number\n

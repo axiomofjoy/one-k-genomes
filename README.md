@@ -22,6 +22,11 @@ The project The following excerpt illustrates the variant call format (for clari
 The second row above corresponds to a variant site located in the first chromosome at position 10177. The reference genome has adenine at this site, while certain individuals have both adenine and cytosine. Identification codes uniquely identify each individual in the study (e.g., “HG00096”). Below these ID codes, the digits to the left and right of the pipe signify whether the reference or alternate sequence are present on the left and right alleles of the corresponding sample, with zero corresponding to the reference sequence and one corresponding to the alternate sequence. For example, sample HG00096 has the variant AC on the left allele and the reference sequence A on the right allele at position 10177 of the first chromosome. In certain cases (not shown above), multiple alternate sequences may be given, in which case positive digits indicate which variant is present. This format applies for chromosomes 1 through 21 and the X chromosome. Since human beings possess at most one allele for the Y chromosome, the VCF entries for this chromosome consist of single digits rather than digits separated by a pipe. In rare cases, a period indicates that data is missing for a particular sample and site.
 
 
+## Data Download and Processing
+
+By recording the sites at which an individual genome differs from the reference genome, variant call format takes advantage of the highly redundant nature of the human genome and lends itself naturally to a sparse matrix representation of the data. `<PROJECT_ROOT>/src/data_acq` contains scripts to download and parse the VCF files of the dataset, storing the data in `scipy` sparse COO matrices. For the sake of space efficiency, these matrices have binary entries that record only record only _whether_ some variant occurs at a particular site on the genome (with 1 indicating the presence of a variant and 0 indicating the presence of the reference sequence), not _which_ variant occurs.
+
+
 ## Requirements and Installation
 
 This project was implemented in Python3 on an AWS t2.xlarge EC2 instance with Ubuntu 18.04 LTS and 16 GB of storage. Downloading the VCF files from the S3 Bucket requires the AWS CLI, which can be installed by entering
@@ -49,3 +54,9 @@ pip3 install -r requirements.txt
 ```
 
 to install the required Python modules. Depending on your setup, you might want to set up a virtual environment with `virtualenv` before this last step.
+
+
+## Acknowledgment
+
+The code contained in this repository is my own, with the exception of the VCF parsers in `<PROJECT_ROOT>/src/data_acq/parser/`, which were taken with slight modifications from [this repository](https://github.com/bwlewis/1000_genomes_examples).
+
