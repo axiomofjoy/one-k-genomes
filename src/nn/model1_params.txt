@@ -1,0 +1,10 @@
+    """# First parameter search space.
+    p = {
+        "dropout_input": list(np.linspace(0, 0.23333333, 8)),
+        "dropout_hidden": list(np.linspace(0, 0.5, 16)),
+        "reg": list(10 ** np.linspace(-4,3,22)),
+        "lr": list(10 ** np.linspace(-3,-5, 7)),
+        "epochs": [100]
+    }
+    """
+

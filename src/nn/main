@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-nohup python3 param_search.py & 
+nohup python3 param_search_model1.py & 

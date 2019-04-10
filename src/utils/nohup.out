@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "assemble.py", line 37, in <module>
-    main()
-  File "assemble.py", line 15, in main
-    numberFiles = list(filter(isNumbered, files))
-  File "assemble.py", line 14, in <lambda>
-    isNumbered = lambda x: re.match("^pdist[0-9]+", x)
-NameError: name 're' is not defined

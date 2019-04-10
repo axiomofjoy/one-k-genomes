@@ -1,2 +1,0 @@
-round_epochs,val_loss,val_acc,loss,acc,dropout_input,dropout_hidden,reg,lr,epochs
-100,10.327710151672363,0.8303393125534058,9.656900405883789,1.0,0.0,0.0,0.1,0.0005689810202763908,100
